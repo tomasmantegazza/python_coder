@@ -1,0 +1,8 @@
+SegundaPreEntregaMantegazza/main_ejemplo.py
+SegundaPreEntregaMantegazza/modulo1.py
+SegundaPreEntregaMantegazza/modulo2.py
+SegundaPreEntregaMantegazza/setup.py
+SegundaPreEntregaMantegazzaa.egg-info/PKG-INFO
+SegundaPreEntregaMantegazzaa.egg-info/SOURCES.txt
+SegundaPreEntregaMantegazzaa.egg-info/dependency_links.txt
+SegundaPreEntregaMantegazzaa.egg-info/top_level.txt
