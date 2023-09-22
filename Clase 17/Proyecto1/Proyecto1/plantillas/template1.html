@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    Hola soy tomas
+
+    <p style="color:red">Mi nombre es: {{first_name}}</p>
+    <p style="color:green">Mi apellido es: {{last_name}}</p>
+
+    <h1>Este template fue creado el: {{hoy}}</h1>
+    <h3>Estas son mis notas del curso de Python: </h3>
+
+    <p>
+    {% for n in notas %} 
+
+        {% if n < 4 %}
+            <p style="color:brown"> NOTA MALA {{n}}</p>
+        {% else %} <p style="color:blue"> NOTA BUENA {{n}}</p>
+        {% endif %} 
+    
+    {% endfor %}
+    </p>
+
+</body>
+</html>
