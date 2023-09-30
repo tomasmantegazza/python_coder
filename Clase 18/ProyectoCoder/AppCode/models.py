@@ -17,7 +17,7 @@ class Profesor(models.Model):
     mail=models.EmailField()
     profesion=models.CharField(max_length=30)
 
-class Entreglable(models.Model):
+class Entregable(models.Model):
     nombre=models.CharField(max_length=30)
     fechDeEntrega=models.DateField()
     entregado=models.BooleanField()
